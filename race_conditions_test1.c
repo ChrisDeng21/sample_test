@@ -26,7 +26,7 @@ void* thread_run(void* arg)
     f(&mlock);
 }
 
-int main(void)
+int rct1(void)
 {
     pthread_t thread1, thread2, thread3;
     pthread_mutex_init(&mlock, 0);

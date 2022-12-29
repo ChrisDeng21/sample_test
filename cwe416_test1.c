@@ -4,7 +4,7 @@
 #include <unistd.h>
 #define BUFSIZER1 512
 #define BUFSIZER2 ((BUFSIZER1 / 2) - 8)
-int main(int argc, char** argv)
+int cwe416(int argc, char** argv)
 {
     (void)(argc);
 

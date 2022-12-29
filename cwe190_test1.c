@@ -16,7 +16,7 @@ char* packet_get_string(const char* s)
     return "string";
 }
 
-int main()
+int cwe190()
 {
     char** response;
     int nresp = packet_get_int_ok();

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(coid)
+int cwe787(void)
 {
     int id_sequence[3];
 

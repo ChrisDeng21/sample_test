@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int VerifyAdmin(char* password)
+static int VerifyAdmin(char* password)
 {
     if (strcmp(password, "Mew!")) {
         printf("Incorrect Password!\n");
@@ -11,7 +11,7 @@ int VerifyAdmin(char* password)
     return (1);
 }
 
-int main(void)
+int hct1(void)
 {
     int i;
     char input[10] = {

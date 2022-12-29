@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <sys/stat.h>
 
-int main(void)
+int cwe732(void)
 {
 #define OUTFILE "hello.out"
 

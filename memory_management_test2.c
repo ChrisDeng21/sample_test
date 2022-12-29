@@ -18,7 +18,7 @@ char* getBlock(int fd)
     return buf;
 }
 
-int main(void)
+int mmt2(void)
 {
     int fd, ret = -1;
     char* data;

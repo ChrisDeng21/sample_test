@@ -8,7 +8,7 @@ typedef struct board_square {
     char a;
 } board_square_t;
 
-int main(void)
+int cwe20(void)
 {
     int m, n, error;
     board_square_t* board;

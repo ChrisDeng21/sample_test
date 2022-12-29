@@ -14,7 +14,7 @@ void endConnection(char* foo)
     free(foo);
 }
 
-int main(void)
+int mmt1(void)
 {
     char* foo;
 

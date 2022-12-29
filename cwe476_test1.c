@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int cwe476()
 {
     FILE* fp = fopen("good.c", "r");
 

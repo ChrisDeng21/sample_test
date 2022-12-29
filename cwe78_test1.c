@@ -4,7 +4,7 @@
 
 #define CMD_MAX 128
 
-int main(int argc, char** argv)
+int cwe78(int argc, char** argv)
 {
     (void)(argc);
 

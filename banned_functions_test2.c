@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-void manipulate_string(char* string)
+static void manipulate_string(char* string)
 {
     char buf[24];
     strcpy(buf, string);
 }
 
-int main(void)
+int bft2(void)
 {
     char* data;
 

@@ -24,7 +24,7 @@ int getValueFromArray(int* array, int len, int index)
     return value;
 }
 
-int main(void)
+int cwe125(void)
 {
     int temp[5] = { 1, 2, 3, 4, 5 };
 

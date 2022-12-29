@@ -5,7 +5,7 @@ int GetUntrustedOffset()
     return 10;
 }
 
-int main(void)
+int cwe119(void)
 {
     char* items[] = { "boat", "car", "truck", "train" };
     int index = GetUntrustedOffset();
