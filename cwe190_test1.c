@@ -1,38 +1,8 @@
-#include <stdlib.h>
+#include <stdio.h>
 
-int packet_get_int_ok()
+void main(void)
 {
-    return 123456;
-}
-
-int packet_get_int_problem()
-{
-    return 1073741824;
-}
-
-char* packet_get_string(const char* s)
-{
-    (void)(s);
-    return "string";
-}
-
-int cwe190()
-{
-    char** response;
-    int nresp = packet_get_int_ok();
-    if (nresp > 0) {
-        response = malloc(nresp * sizeof(char*));
-        for (int i = 0; i < nresp; i++)
-            response[i] = packet_get_string(NULL);
-    }
-    free(response);
-
-    nresp = packet_get_int_problem();
-    if (nresp > 0) {
-        response = malloc(nresp * sizeof(char*));
-        for (int i = 0; i < nresp; i++)
-            response[i] = packet_get_string(NULL);
-    }
-    free(response);
-    return 0;
-}
+	int a = 7000000000;
+	a = a*2;
+	printf("a = %d\n", a);
+} 
