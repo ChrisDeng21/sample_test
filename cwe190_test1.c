@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main(void)
+void cwe190(void)
 {
 	int a = 7000000000;
 	a = a*2;
